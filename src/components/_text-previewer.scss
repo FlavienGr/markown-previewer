@@ -1,0 +1,17 @@
+.text-previewer {
+  width: 47vw;
+  min-height: 331.5px;
+  border: 2px solid saddlebrown;
+
+  &__header {
+    background-color: #a5916fcb;
+    border-bottom: 2px solid saddlebrown;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+#preview {
+  padding: 10px;
+}

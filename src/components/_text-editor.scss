@@ -1,0 +1,30 @@
+.text-editor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  &__box {
+    border: 2px solid saddlebrown;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 18px;
+  }
+  &__header {
+    border-bottom: 2px solid saddlebrown;
+    padding: 10px;
+    background-color: #a5916fcb;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+#editor {
+  background-color: inherit;
+  width: 47vw;
+  height: 250px;
+  border: none;
+  padding: 10px;
+}
+#editor:focus {
+  outline: none;
+}

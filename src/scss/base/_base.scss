@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8daa665;
+}
+.app {
+  padding: 20px;
+  height: 100vh;
+}
